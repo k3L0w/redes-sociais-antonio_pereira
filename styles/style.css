@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'myriadPRO';
+    src: url(/fonts/myriad-pro-regular.OTF);
+}
+
+:root {
+    --fontMyriad: 'myriadPRO';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--fontMyriad);
+}
+
+body {}
+
+header {}
+
+main {}
+
+footer {}
