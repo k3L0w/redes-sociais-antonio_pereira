@@ -58,6 +58,12 @@ ul {
 
 header {}
 
-main {}
+main {
+    height: 80vh;
+    background-color: #FBFBFD;
+}
 
-footer {}
+footer {
+    background-color: #F5F5F7;
+    text-align: center;
+}
