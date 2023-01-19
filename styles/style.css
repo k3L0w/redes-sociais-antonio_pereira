@@ -10,7 +10,6 @@
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
 }
 
 html,
@@ -20,13 +19,13 @@ body {
     box-sizing: border-box;
     font-family: var(--fontMyriad);
     background-color: white;
+
+
 }
 
 header {
     background-color: #333333;
     height: 100;
-    grid-column-start: 1;
-    grid-column-end: 1;
 }
 
 a {
@@ -84,16 +83,15 @@ ul {
 
 
 main {
-    height: 100h;
+    height: 100;
     grid-column-start: 1;
     grid-column-end: 1;
-    /*
     background-color: #FBFBFD;
-    background-image: url(/images/bg-madeira.jpeg);
+    background-image: url(/images/bg-tecnologia.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
-    */
+    background-position: center;
+    background-attachment: fixed;
 }
 
 footer {
@@ -111,5 +109,5 @@ footer {
 /*iniciar grid*/
 .container {
     display: grid;
-    grid-template-rows: 15vh 70vh 10vh;
+    grid-template-rows: 13vh 77vh 10vh;
 }
